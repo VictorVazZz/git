@@ -1,0 +1,54 @@
+<html>
+    <head> 
+        <title>formulários</title>
+
+    </head>
+    <body>
+        <form action="" method="" enctype="multipart/form-data">
+
+        <div>
+            <label for="">nome</label>
+            <input nome="nome" required="required" placeholder="digite seu nome" type="text">
+        </div>
+        <div>
+            <label for="">E-mail</label>
+            <input E-mail="E-mail" required="required" placeholder="digite seue E-mail" type="text">
+        </div>
+        <div>
+            <label for="">selecione sua cidade</label>
+            <select required="required" name="cidade">
+                <option selected="selected" value="">selecione</option>
+                <option value="1">colombo</option>
+                <option value="2">curitiba</option>
+                <option value="3">almirante</option>
+            </select>
+        </div>
+        <div>
+            <label for="">sua foto</label>
+            <input type="file" required="required" nome="foto">
+        </div>
+
+        <div>
+            <p>selecione um sexo: </p>
+            <label for="sexo1">sexo <input nome="sexo" id="sexo1" value="m" type="radio">masculino</label>
+            <label for="sexo2"> <input nome="sexo" id="sexo2" value="f" type="radio">feminino</label>
+        </div>
+
+        <div>
+            <label for="">Biografia</label><br>
+            <textarea name="" placeholder="digite sua biografia" cols="30" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="">senha</label>
+            <input type="password" placeholder="digite sua senha" required="required" nome="senha">
+        </div>
+        <div>
+            <label for="noticias"><input nome="newsletter" id="noticias" type="checkbox">deseja receber noticias?</label>
+
+
+        </div>
+        <div>
+            <button name="enviar" value= "1" type="submit">enviar</button>
+        </div>
+        </form>
+</html>
